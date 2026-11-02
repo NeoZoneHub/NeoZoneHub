@@ -41,14 +41,14 @@ Notre objectif est de transformer des idées en solutions numériques utiles, gr
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ⌘ Développement logiciel
 
 Applications, scripts, interfaces web et outils informatiques.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
 ### ◈ Intelligence artificielle
 
@@ -57,14 +57,14 @@ Expérimentations en IA, assistants intelligents et solutions automatisées.
 </td>
 </tr>
 <tr>
-<td>
+<td width="50%" valign="top">
 
 ### ⚡ Bots et automatisation
 
 Bots numériques et systèmes conçus pour simplifier certaines tâches.
 
 </td>
-<td>
+<td width="50%" valign="top">
 
 ### ✦ Innovation numérique
 
@@ -78,24 +78,15 @@ Prototypes, expérimentations et exploration de nouvelles technologies.
 
 ## `03 / NOS PROJETS`
 
-Retrouvez ci-dessous nos dépôts publics. Cette section est actualisée automatiquement grâce à GitHub Actions.
-
-<!-- PROJECTS:START -->
-| Project | Language | Stars | Description |
-|---|---|---:|---|
-| [Digital-hack-cam](https://github.com/NeoZoneHub/Digital-hack-cam) | Python | 13 | No description provided. |
-| [Digital-Post-AI-v1](https://github.com/NeoZoneHub/Digital-Post-AI-v1) | JavaScript | 3 | No description provided. |
-| [DigiX-bot](https://github.com/NeoZoneHub/DigiX-bot) | JavaScript | 7 | No description provided. |
-| [Newsletter-bot](https://github.com/NeoZoneHub/Newsletter-bot) | JavaScript | 1 | No description provided. |
-| [ShadowCrew-Mini-bot](https://github.com/NeoZoneHub/ShadowCrew-Mini-bot) | JavaScript | 0 | No description provided. |
-| [Digital-telegram-bot](https://github.com/NeoZoneHub/Digital-telegram-bot) | JavaScript | 2 | No description provided. |
-| [Alpha-opt-bot](https://github.com/NeoZoneHub/Alpha-opt-bot) | JavaScript | 5 | No description provided. |
-| [WA-Hub-X](https://github.com/NeoZoneHub/WA-Hub-X) | Python | 4 | No description provided. |
-| [ShadowCrew-session-id](https://github.com/NeoZoneHub/ShadowCrew-session-id) | HTML | 5 | No description provided. |
-| [ReconHub](https://github.com/NeoZoneHub/ReconHub) | Python | 5 | No description provided. |
-<!-- PROJECTS:END -->
+Découvrez une sélection de nos réalisations. Chaque carte permet d'accéder directement au dépôt correspondant.
 
 <div align="center">
+
+<!-- PROJECTS:START -->
+<p><i>Les projets seront chargés automatiquement.</i></p>
+<!-- PROJECTS:END -->
+
+<br/>
 
 <a href="https://github.com/NeoZoneHub?tab=repositories">
 <img src="https://img.shields.io/badge/EXPLORER%20TOUS%20LES%20PROJETS-00D4FF?style=for-the-badge&logo=github&logoColor=07111F"/>
@@ -107,7 +98,7 @@ Retrouvez ci-dessous nos dépôts publics. Cette section est actualisée automat
 
 ## `04 / NOS TECHNOLOGIES`
 
-Technologies utilisées dans nos dépôts publics et nos projets de développement :
+Technologies identifiées dans nos dépôts publics :
 
 <div align="center">
 
@@ -126,11 +117,11 @@ Technologies utilisées dans nos dépôts publics et nos projets de développeme
 
 ## `05 / STATISTIQUES GITHUB`
 
-Découvrez l'activité et les statistiques de notre compte GitHub.
+Quelques indicateurs sur l'activité de notre espace GitHub.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB&locale=fr" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB&locale=fr" height="175"/>
 
 <br/><br/>
 
