@@ -1,5 +1,5 @@
 
-name: Update Neozone Hub Projects
+name: Actualisation des projets Neozone Hub
 
 on:
   schedule:
@@ -15,20 +15,21 @@ permissions:
   contents: write
 
 jobs:
-  update-projects:
+  actualiser-projets:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Récupérer le dépôt
         uses: actions/checkout@v4
 
-      - name: Update public repositories
+      - name: Générer les cartes des projets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python - <<'PY'
           import json
           import os
+          import html
           import urllib.request
           import urllib.parse
 
@@ -53,6 +54,7 @@ jobs:
           with urllib.request.urlopen(request) as response:
               repos = json.loads(response.read().decode())
 
+          # Garder uniquement les dépôts originaux et publics.
           repos = [
               repo for repo in repos
               if not repo["fork"]
@@ -64,29 +66,77 @@ jobs:
               reverse=True
           )
 
-          rows = []
+          # Construire les cartes des projets.
+          cards = []
 
           for repo in repos[:15]:
-              name = repo["name"]
-              link = repo["html_url"]
-              language = repo["language"] or "Other"
-              stars = repo["stargazers_count"]
-              description = (
-                  repo["description"] or "No description provided."
+              name = html.escape(repo["name"])
+              link = html.escape(repo["html_url"], quote=True)
+
+              language = html.escape(
+                  repo["language"] or "Autre"
               )
 
-              description = description.replace("|", "\\|")
+              stars = repo["stargazers_count"]
+
+              description = html.escape(
+                  repo["description"] or "Aucune description disponible."
+              )
+
               description = description.replace("\n", " ")
 
-              rows.append(
-                  f"| [{name}]({link}) | {language} | "
-                  f"{stars} | {description} |"
+              button = (
+                  "https://img.shields.io/badge/"
+                  "VOIR_LE_PROJET-6C3BFF?style=for-the-badge"
               )
 
-          if not rows:
-              rows = [
-                  "| No public projects found | — | 0 | — |"
+              card = f"""
+              <td width="50%" valign="top">
+                <h3>◈ {name}</h3>
+                <p>{description}</p>
+                <p>
+                  <img src="https://img.shields.io/badge/{urllib.parse.quote(language, safe='')}-087E9B?style=flat-square"
+                       alt="Langage : {language}"/>
+                  <img src="https://img.shields.io/badge/Étoiles-{stars}-392A86?style=flat-square"
+                       alt="{stars} étoiles"/>
+                </p>
+                <a href="{link}">
+                  <img src="{button}" alt="Voir le projet"/>
+                </a>
+              </td>
+              """
+
+              cards.append(card)
+
+          if not cards:
+              cards = [
+                  """
+                  <td colspan="2" align="center">
+                    Aucun projet public disponible pour le moment.
+                  </td>
+                  """
               ]
+
+          # Organiser les cartes deux par deux.
+          rows = []
+
+          for index in range(0, len(cards), 2):
+              first = cards[index]
+              second = (
+                  cards[index + 1]
+                  if index + 1 < len(cards)
+                  else "<td width='50%'></td>"
+              )
+
+              rows.append(
+                  f"<tr>\n{first}\n{second}\n</tr>"
+              )
+
+          project_section = (
+              '<table width="100%">\n'
+              + "\n".join(rows)
+              + "\n</table>\n"
+          )
 
           with open(readme_path, "r", encoding="utf-8") as file:
               content = file.read()
@@ -95,33 +145,31 @@ jobs:
           end = "<!-- PROJECTS:END -->"
 
           if start not in content or end not in content:
-              raise ValueError("Project markers are missing from README.")
+              raise ValueError(
+                  "Les marqueurs des projets sont absents du README."
+              )
 
           before, remaining = content.split(start, 1)
           _, after = remaining.split(end, 1)
 
-          new_section = (
-              "\n"
-              "| Project | Language | Stars | Description |\n"
-              "|---|---|---:|---|\n"
-              + "\n".join(rows)
-              + "\n"
+          updated = (
+              before + start + "\n"
+              + project_section
+              + end + after
           )
-
-          updated = before + start + new_section + end + after
 
           with open(readme_path, "w", encoding="utf-8") as file:
               file.write(updated)
 
-          print(f"Updated {len(rows)} public repositories.")
+          print(f"{len(cards)} cartes de projets générées.")
           PY
 
-      - name: Commit updated README
+      - name: Enregistrer les modifications
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || (
-            git commit -m "chore: update public projects"
+            git commit -m "Mise à jour automatique des cartes de projets"
             git push
           )
