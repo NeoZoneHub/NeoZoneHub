@@ -54,7 +54,6 @@ jobs:
           with urllib.request.urlopen(request) as response:
               repos = json.loads(response.read().decode())
 
-          # Garder uniquement les dépôts originaux et publics.
           repos = [
               repo for repo in repos
               if not repo["fork"]
@@ -66,102 +65,104 @@ jobs:
               reverse=True
           )
 
-          # Construire les cartes des projets.
-          cards = []
+          cartes = []
 
           for repo in repos[:15]:
-              name = html.escape(repo["name"])
-              link = html.escape(repo["html_url"], quote=True)
+              nom = html.escape(repo["name"])
+              lien = html.escape(repo["html_url"], quote=True)
 
-              language = html.escape(
-                  repo["language"] or "Autre"
+              langage = repo["language"] or "Autre"
+              langage_url = urllib.parse.quote(
+                  langage,
+                  safe=""
               )
 
-              stars = repo["stargazers_count"]
+              etoiles = repo["stargazers_count"]
 
               description = html.escape(
                   repo["description"] or "Aucune description disponible."
-              )
+              ).replace("\n", " ")
 
-              description = description.replace("\n", " ")
-
-              button = (
+              badge_langage = (
                   "https://img.shields.io/badge/"
-                  "VOIR_LE_PROJET-6C3BFF?style=for-the-badge"
+                  f"{langage_url}-087E9B?style=flat-square"
               )
 
-              card = f"""
-              <td width="50%" valign="top">
-                <h3>◈ {name}</h3>
-                <p>{description}</p>
-                <p>
-                  <img src="https://img.shields.io/badge/{urllib.parse.quote(language, safe='')}-087E9B?style=flat-square"
-                       alt="Langage : {language}"/>
-                  <img src="https://img.shields.io/badge/Étoiles-{stars}-392A86?style=flat-square"
-                       alt="{stars} étoiles"/>
-                </p>
-                <a href="{link}">
-                  <img src="{button}" alt="Voir le projet"/>
-                </a>
-              </td>
-              """
+              badge_etoiles = (
+                  "https://img.shields.io/badge/"
+                  f"%C3%89toiles-{etoiles}-392A86?style=flat-square"
+              )
 
-              cards.append(card)
+              carte = f"""
+          <td width="50%" valign="top" align="center">
+            <h3>◈ {nom}</h3>
+            <p>{description}</p>
+            <p>
+              <img src="{badge_langage}" alt="Langage : {html.escape(langage)}"/>
+              <img src="{badge_etoiles}" alt="{etoiles} étoiles"/>
+            </p>
+            <a href="{lien}">
+              <img src="https://img.shields.io/badge/VOIR%20LE%20PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white" alt="Voir le projet"/>
+            </a>
+          </td>
+          """
 
-          if not cards:
-              cards = [
+              cartes.append(carte)
+
+          if not cartes:
+              cartes = [
                   """
-                  <td colspan="2" align="center">
-                    Aucun projet public disponible pour le moment.
-                  </td>
-                  """
+          <td colspan="2" align="center">
+            Aucun projet public disponible pour le moment.
+          </td>
+          """
               ]
 
-          # Organiser les cartes deux par deux.
-          rows = []
+          lignes = []
 
-          for index in range(0, len(cards), 2):
-              first = cards[index]
-              second = (
-                  cards[index + 1]
-                  if index + 1 < len(cards)
-                  else "<td width='50%'></td>"
+          for index in range(0, len(cartes), 2):
+              premiere = cartes[index]
+
+              seconde = (
+                  cartes[index + 1]
+                  if index + 1 < len(cartes)
+                  else '<td width="50%"></td>'
               )
 
-              rows.append(
-                  f"<tr>\n{first}\n{second}\n</tr>"
+              lignes.append(
+                  f"<tr>\n{premiere}\n{seconde}\n</tr>"
               )
 
-          project_section = (
+          section_projets = (
               '<table width="100%">\n'
-              + "\n".join(rows)
+              + "\n".join(lignes)
               + "\n</table>\n"
           )
 
-          with open(readme_path, "r", encoding="utf-8") as file:
-              content = file.read()
+          with open(readme_path, "r", encoding="utf-8") as fichier:
+              contenu = fichier.read()
 
-          start = "<!-- PROJECTS:START -->"
-          end = "<!-- PROJECTS:END -->"
+          debut = "<!-- PROJECTS:START -->"
+          fin = "<!-- PROJECTS:END -->"
 
-          if start not in content or end not in content:
+          if debut not in contenu or fin not in contenu:
               raise ValueError(
                   "Les marqueurs des projets sont absents du README."
               )
 
-          before, remaining = content.split(start, 1)
-          _, after = remaining.split(end, 1)
+          avant, reste = contenu.split(debut, 1)
+          _, apres = reste.split(fin, 1)
 
-          updated = (
-              before + start + "\n"
-              + project_section
-              + end + after
+          nouveau_contenu = (
+              avant + debut + "\n"
+              + section_projets
+              + fin + apres
           )
 
-          with open(readme_path, "w", encoding="utf-8") as file:
-              file.write(updated)
+          with open(readme_path, "w", encoding="utf-8") as fichier:
+              fichier.write(nouveau_contenu)
 
-          print(f"{len(cards)} cartes de projets générées.")
+          print(f"{len(cartes)} cartes de projets générées.")
           PY
 
       - name: Enregistrer les modifications
@@ -170,6 +171,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git diff --cached --quiet || (
-            git commit -m "Mise à jour automatique des cartes de projets"
+            git commit -m "Actualisation des cartes de projets"
             git push
           )
