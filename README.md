@@ -21,6 +21,10 @@
 <img src="https://img.shields.io/badge/D%C3%89COUVRIR%20LES%20PROJETS-6C3BFF?style=for-the-badge&logo=github"/>
 </a>
 
+<br/><br/>
+
+<em>Un espace de création, d'expérimentation et d'innovation numérique.</em>
+
 </div>
 
 ---
@@ -31,7 +35,7 @@
 
 C'est un laboratoire numérique consacré au développement logiciel, à l'intelligence artificielle, à l'automatisation et à l'expérimentation technologique.
 
-Notre objectif est de transformer des idées en solutions numériques utiles, grâce à la créativité, à l'exploration technique et à l'amélioration continue.
+Notre objectif est de transformer des idées en solutions numériques utiles, en associant créativité, exploration technique et amélioration continue.
 
 > **Notre vision :** concevoir des technologies qui ont du sens, repousser les limites de la création et innover avec ambition.
 
@@ -39,7 +43,7 @@ Notre objectif est de transformer des idées en solutions numériques utiles, gr
 
 ## `02 / NOTRE ÉCOSYSTÈME`
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
@@ -78,172 +82,17 @@ Prototypes, expérimentations et exploration de nouvelles technologies.
 
 ## `03 / NOS PROJETS`
 
-Découvrez une sélection de nos réalisations. Chaque carte permet d'accéder directement au dépôt correspondant.
+Découvrez une sélection de nos réalisations. Chaque carte vous permet d'accéder directement au dépôt correspondant.
 
 <div align="center">
 
 <!-- PROJECTS:START -->
 <table width="100%">
-<tr>
-
-    <td width="50%" valign="top">
-      <h3>◈ Digital-hack-cam</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
-             alt="Langage : Python"/>
-        <img src="https://img.shields.io/badge/Étoiles-13-392A86?style=flat-square"
-             alt="13 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/Digital-hack-cam">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-
-    <td width="50%" valign="top">
-      <h3>◈ Digital-Post-AI-v1</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-3-392A86?style=flat-square"
-             alt="3 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/Digital-Post-AI-v1">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-</tr>
-<tr>
-
-    <td width="50%" valign="top">
-      <h3>◈ DigiX-bot</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-7-392A86?style=flat-square"
-             alt="7 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/DigiX-bot">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-
-    <td width="50%" valign="top">
-      <h3>◈ Newsletter-bot</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-1-392A86?style=flat-square"
-             alt="1 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/Newsletter-bot">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-</tr>
-<tr>
-
-    <td width="50%" valign="top">
-      <h3>◈ ShadowCrew-Mini-bot</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-0-392A86?style=flat-square"
-             alt="0 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/ShadowCrew-Mini-bot">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-
-    <td width="50%" valign="top">
-      <h3>◈ Digital-telegram-bot</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-2-392A86?style=flat-square"
-             alt="2 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/Digital-telegram-bot">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-</tr>
-<tr>
-
-    <td width="50%" valign="top">
-      <h3>◈ Alpha-opt-bot</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
-             alt="Langage : JavaScript"/>
-        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
-             alt="5 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/Alpha-opt-bot">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-
-    <td width="50%" valign="top">
-      <h3>◈ WA-Hub-X</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
-             alt="Langage : Python"/>
-        <img src="https://img.shields.io/badge/Étoiles-4-392A86?style=flat-square"
-             alt="4 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/WA-Hub-X">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-</tr>
-<tr>
-
-    <td width="50%" valign="top">
-      <h3>◈ ShadowCrew-session-id</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/HTML-087E9B?style=flat-square"
-             alt="Langage : HTML"/>
-        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
-             alt="5 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/ShadowCrew-session-id">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-
-    <td width="50%" valign="top">
-      <h3>◈ ReconHub</h3>
-      <p>Aucune description disponible.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
-             alt="Langage : Python"/>
-        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
-             alt="5 étoiles"/>
-      </p>
-      <a href="https://github.com/NeoZoneHub/ReconHub">
-        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
-      </a>
-    </td>
-    
-</tr>
+<tr><td width="50%" valign="top" align="center"><h3>◈ Digital-hack-cam</h3><p>Projet développé en Python.</p><p><img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/13%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/Digital-hack-cam"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td><td width="50%" valign="top" align="center"><h3>◈ Digital-Post-AI-v1</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/3%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/Digital-Post-AI-v1"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>◈ DigiX-bot</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/7%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/DigiX-bot"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td><td width="50%" valign="top" align="center"><h3>◈ Newsletter-bot</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/1%20%C3%A9toile-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/Newsletter-bot"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>◈ ShadowCrew-Mini-bot</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/0%20%C3%A9toile-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/ShadowCrew-Mini-bot"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td><td width="50%" valign="top" align="center"><h3>◈ Digital-telegram-bot</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/2%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/Digital-telegram-bot"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>◈ Alpha-opt-bot</h3><p>Projet développé en JavaScript.</p><p><img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/5%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/Alpha-opt-bot"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td><td width="50%" valign="top" align="center"><h3>◈ WA-Hub-X</h3><p>Projet développé en Python.</p><p><img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/4%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/WA-Hub-X"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td></tr>
+<tr><td width="50%" valign="top" align="center"><h3>◈ ShadowCrew-session-id</h3><p>Projet développé en HTML.</p><p><img src="https://img.shields.io/badge/HTML-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/5%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/ShadowCrew-session-id"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td><td width="50%" valign="top" align="center"><h3>◈ ReconHub</h3><p>Projet développé en Python.</p><p><img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"/>&nbsp;<img src="https://img.shields.io/badge/5%20%C3%A9toiles-392A86?style=flat-square"/></p><a href="https://github.com/NeoZoneHub/ReconHub"><img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/></a></td></tr>
 </table>
 <!-- PROJECTS:END -->
 
@@ -270,7 +119,7 @@ Technologies identifiées dans nos dépôts publics :
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=070B18&title_color=00D4FF&text_color=E5E7EB&locale=fr"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=070B18&title_color=00D4FF&text_color=E5E7EB&locale=fr" alt="Langages les plus utilisés sur GitHub"/>
 
 </div>
 
@@ -278,19 +127,19 @@ Technologies identifiées dans nos dépôts publics :
 
 ## `05 / STATISTIQUES GITHUB`
 
-Quelques indicateurs sur l'activité de notre espace GitHub.
+Découvrez quelques indicateurs de l'activité de notre compte GitHub.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB&locale=fr" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide=contribs&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB&locale=fr" alt="Statistiques GitHub de Neozone Hub" height="175"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=NeoZoneHub&theme=transparent&hide_border=true&background=070B18&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8&locale=fr" height="175"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=NeoZoneHub&theme=transparent&hide_border=true&background=070B18&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8&locale=fr" alt="Série de contributions GitHub" height="175"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NeoZoneHub&bg_color=070B18&color=00D4FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NeoZoneHub&bg_color=070B18&color=00D4FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" alt="Graphique d'activité GitHub" width="95%"/>
 
 </div>
 
