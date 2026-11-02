@@ -1,61 +1,189 @@
 
-from html import escape
-from urllib.parse import quote
+name: Actualisation des projets Neozone Hub
 
-cartes = []
+on:
+  schedule:
+    - cron: "0 6 * * *"
 
-for repo in repos[:15]:
-    nom = escape(repo["name"])
-    lien = escape(repo["html_url"], quote=True)
-    langage = escape(repo["language"] or "Autre")
-    langage_url = quote(repo["language"] or "Autre", safe="")
-    etoiles = repo["stargazers_count"]
+  workflow_dispatch:
 
-    description = escape(
-        repo["description"] or "Aucune description disponible."
-    )
+permissions:
+  contents: write
 
-    carte = (
-        '<td width="50%" valign="top">'
-        '<table width="100%"><tr><td>'
-        '<h3>◈ ' + nom + '</h3>'
-        '<p>' + description + '</p>'
-        '<p>'
-        '<img src="https://img.shields.io/badge/'
-        + langage_url + '-087E9B?style=flat-square" '
-        'alt="' + langage + '"/> '
-        '<img src="https://img.shields.io/badge/'
-        + str(etoiles) + '%20%C3%A9toiles-392A86?style=flat-square" '
-        'alt="' + str(etoiles) + ' étoiles"/>'
-        '</p>'
-        '<a href="' + lien + '">'
-        '<img src="https://img.shields.io/badge/'
-        'D%C3%89COUVRIR%20LE%20PROJET-6C3BFF'
-        '?style=for-the-badge&logo=github&logoColor=white" '
-        'alt="Découvrir le projet"/>'
-        '</a>'
-        '</td></tr></table>'
-        '</td>'
-    )
+jobs:
+  actualiser-projets:
+    runs-on: ubuntu-latest
 
-    cartes.append(carte)
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
 
-if not cartes:
-    cartes = [
-        '<td colspan="2" align="center">'
-        'Aucun projet public disponible.'
-        '</td>'
-    ]
+      - name: Générer les cartes des projets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import html
+          import urllib.request
+          import urllib.parse
 
-lignes = []
+          username = "NeoZoneHub"
+          readme_path = "README.md"
+          token = os.environ["GH_TOKEN"]
 
-for i in range(0, len(cartes), 2):
-    gauche = cartes[i]
-    droite = cartes[i + 1] if i + 1 < len(cartes) else '<td></td>'
-    lignes.append('<tr>' + gauche + droite + '</tr>')
+          url = (
+              f"https://api.github.com/users/{username}/repos"
+              "?type=owner&sort=updated&per_page=100"
+          )
 
-section_projets = (
-    '<table width="100%">'
-    + ''.join(lignes)
-    + '</table>'
-)
+          request = urllib.request.Request(
+              url,
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "Authorization": f"Bearer {token}",
+                  "X-GitHub-Api-Version": "2022-11-28"
+              }
+          )
+
+          with urllib.request.urlopen(request) as response:
+              repos = json.loads(response.read().decode())
+
+          # Exclure les forks et le dépôt du profil.
+          repos = [
+              repo for repo in repos
+              if not repo["fork"]
+              and repo["name"].lower() != username.lower()
+          ]
+
+          # Trier les projets par date de modification.
+          repos.sort(
+              key=lambda repo: repo["updated_at"],
+              reverse=True
+          )
+
+          cartes = []
+
+          # Générer les cartes des 15 projets les plus récents.
+          for repo in repos[:15]:
+
+              nom = html.escape(repo["name"])
+              lien = html.escape(repo["html_url"], quote=True)
+
+              langage_original = repo["language"] or "Autre"
+              langage = html.escape(langage_original)
+              langage_url = urllib.parse.quote(
+                  langage_original,
+                  safe=""
+              )
+
+              etoiles = repo["stargazers_count"]
+
+              description = html.escape(
+                  repo["description"] or "Aucune description disponible."
+              ).replace("\n", " ")
+
+              badge_langage = (
+                  "https://img.shields.io/badge/"
+                  f"{langage_url}-087E9B?style=flat-square"
+              )
+
+              badge_etoiles = (
+                  "https://img.shields.io/badge/"
+                  f"{etoiles}%20%C3%A9toiles-392A86?style=flat-square"
+              )
+
+              carte = (
+                  '<td width="50%" valign="top">'
+                  '<table width="100%"><tr><td align="center">'
+                  f'<h3>◈ {nom}</h3>'
+                  f'<p>{description}</p>'
+                  '<p>'
+                  f'<img src="{badge_langage}" alt="Langage : {langage}"/> '
+                  f'<img src="{badge_etoiles}" alt="{etoiles} étoiles"/>'
+                  '</p>'
+                  f'<a href="{lien}">'
+                  '<img src="https://img.shields.io/badge/'
+                  'D%C3%89COUVRIR%20LE%20PROJET-6C3BFF'
+                  '?style=for-the-badge&logo=github&logoColor=white" '
+                  'alt="Découvrir le projet"/>'
+                  '</a>'
+                  '</td></tr></table>'
+                  '</td>'
+              )
+
+              cartes.append(carte)
+
+          # Afficher un message si aucun projet n'est disponible.
+          if not cartes:
+              cartes = [
+                  '<td colspan="2" align="center">'
+                  'Aucun projet public disponible pour le moment.'
+                  '</td>'
+              ]
+
+          # Organiser les cartes deux par deux.
+          lignes = []
+
+          for index in range(0, len(cartes), 2):
+              premiere = cartes[index]
+
+              seconde = (
+                  cartes[index + 1]
+                  if index + 1 < len(cartes)
+                  else '<td width="50%"></td>'
+              )
+
+              lignes.append(
+                  '<tr>' + premiere + seconde + '</tr>'
+              )
+
+          # Construire le tableau HTML sans indentation parasite.
+          section_projets = (
+              '<table width="100%">'
+              + ''.join(lignes)
+              + '</table>'
+          )
+
+          # Lire le README.
+          with open(readme_path, "r", encoding="utf-8") as fichier:
+              contenu = fichier.read()
+
+          debut = "<!-- PROJECTS:START -->"
+          fin = "<!-- PROJECTS:END -->"
+
+          if debut not in contenu or fin not in contenu:
+              raise ValueError(
+                  "Les marqueurs des projets sont absents du README."
+              )
+
+          avant, reste = contenu.split(debut, 1)
+          _, apres = reste.split(fin, 1)
+
+          # Remplacer uniquement la section des projets.
+          nouveau_contenu = (
+              avant
+              + debut
+              + "\n"
+              + section_projets
+              + "\n"
+              + fin
+              + apres
+          )
+
+          with open(readme_path, "w", encoding="utf-8") as fichier:
+              fichier.write(nouveau_contenu)
+
+          print(f"{len(cartes)} cartes de projets générées.")
+          PY
+
+      - name: Enregistrer les modifications
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (
+            git commit -m "Actualisation des cartes de projets"
+            git push
+          )
