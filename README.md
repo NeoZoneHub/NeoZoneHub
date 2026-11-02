@@ -1,122 +1,168 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:6C3BFF,70:00D4FF,100:050816&height=210&section=header&text=NEOZONE%20HUB&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=DIGITAL%20CREW%20%E2%80%A2%20BUILD%20THE%20NEXT&descAlignY=60&descSize=15" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:070B18,35:392A86,70:087E9B,100:070B18&text=NEOZONE%20HUB&fontColor=FFFFFF&fontSize=54&fontAlignY=38&desc=THE%20DIGITAL%20LAB%20OF%20DIGITAL%20CREW&descAlignY=61&descSize=14" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=700&lines=Welcome+to+Neozone+Hub;Official+space+of+Digital+Crew;Ideas+%E2%86%92+Code+%E2%86%92+Impact;Build.+Experiment.+Create.+Repeat." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Welcome+to+Neozone+Hub;The+technical+space+of+Digital+Crew;Code.+Ideas.+Innovation.;Building+the+future+one+project+at+a+time."/>
 
 <br/>
 
-<img src="https://img.shields.io/badge/NEOZONE-HUB-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/DIGITAL-CREW-00D4FF?style=for-the-badge&logo=codefactor&logoColor=white"/>
-<img src="https://img.shields.io/badge/STATUS-BUILDING-101827?style=for-the-badge&logo=rocket&logoColor=00D4FF"/>
+<img src="https://img.shields.io/badge/NEOZONE-HUB-6C3BFF?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/DIGITAL-CREW-00D4FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CREATED%20BY-DAN%20JERSEY-111827?style=for-the-badge"/>
+
+<br/><br/>
+
+<a href="https://github.com/NeoZoneHub">
+<img src="https://img.shields.io/github/followers/NeoZoneHub?label=Followers&style=for-the-badge&color=087E9B&logo=github"/>
+</a>
+
+<a href="https://github.com/NeoZoneHub?tab=repositories">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECTS-6C3BFF?style=for-the-badge&logo=github"/>
+</a>
 
 </div>
 
 ---
 
-## `> who_are_we();`
+## `01 / ABOUT NEOZONE`
 
 **Neozone Hub** is the official GitHub space of **Digital Crew**, created by **Dan Jersey**.
 
-This is where ideas become experiments, experiments become projects, and projects get built into something useful.
+It is a digital laboratory dedicated to software development, artificial intelligence, automation and technological experimentation.
 
-We explore technology, software development, artificial intelligence, digital creativity, and practical innovation.
+Our goal is to turn ideas into useful digital products through creativity, technical exploration and continuous improvement.
 
-> Don't just imagine the future. Build something that moves it forward.
-
----
-
-## `> our_mission`
-
-<div align="center">
-
-| ✦ EXPLORE | ⚡ BUILD | ◈ SHARE |
-|:---:|:---:|:---:|
-| Discover new ideas and technologies. | Turn concepts into working projects. | Share tools, knowledge and experiments. |
-
-</div>
-
-We believe in learning by building, staying curious, and making technology more accessible.
-
-Neozone Hub is a growing space. Expect new projects, experiments, improvements, and fresh ideas.
+> **Our vision:** Build meaningful technology. Create without limits. Innovate with purpose.
 
 ---
 
-## `> what_you_may_find_here`
+## `02 / OUR ECOSYSTEM`
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-<img src="https://img.shields.io/badge/Web%20Development-111827?style=for-the-badge&logo=html5&logoColor=00D4FF"/>
-<img src="https://img.shields.io/badge/AI%20%26%20Automation-111827?style=for-the-badge&logo=openai&logoColor=00D4FF"/>
-<img src="https://img.shields.io/badge/Developer%20Tools-111827?style=for-the-badge&logo=github&logoColor=00D4FF"/>
-<img src="https://img.shields.io/badge/Digital%20Innovation-111827?style=for-the-badge&logo=probot&logoColor=00D4FF"/>
+### ⌘ Software Development
 
-</div>
+Applications, scripts, web interfaces and software tools.
 
-- **Web Development:** Websites, interfaces and digital products.
-- **Artificial Intelligence:** AI experiments, assistants and automation.
-- **Developer Tools:** Useful resources and software projects.
-- **Digital Innovation:** Creative concepts, prototypes and experiments.
+</td>
+<td width="50%">
+
+### ◈ Artificial Intelligence
+
+AI experiments, intelligent assistants and automation.
+
+</td>
+</tr>
+<tr>
+<td>
+
+### ⚡ Bots & Automation
+
+Digital bots and systems designed to simplify tasks.
+
+</td>
+<td>
+
+### ✦ Digital Innovation
+
+Prototypes, experiments and emerging technologies.
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `> the_people_behind_it`
+## `03 / PROJECTS`
 
-<div align="center">
+Our public repositories are displayed below. This section is automatically updated by GitHub Actions.
 
-### DIGITAL CREW
-
-**The team behind Neozone Hub**
-
-Created by **Dan Jersey**
-
-*Curiosity is the spark. Code is the instrument. Impact is the goal.*
-
-</div>
-
----
-
-## `> explore_the_code`
+<!-- PROJECTS:START -->
+| Project | Language | Stars | Description |
+|---|---|---:|---|
+| Loading projects... | — | — | The automatic update will populate this section. |
+<!-- PROJECTS:END -->
 
 <div align="center">
 
 <a href="https://github.com/NeoZoneHub?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE%20REPOSITORIES-00D4FF?style=for-the-badge&logo=github&logoColor=050816"/>
+<img src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-00D4FF?style=for-the-badge&logo=github&logoColor=07111F"/>
 </a>
+
+</div>
+
+---
+
+## `04 / TECHNOLOGY STACK`
+
+Technologies identified in our public repositories:
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827"/>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=070B18&title_color=00D4FF&text_color=E5E7EB"/>
+
+</div>
+
+---
+
+## `05 / GITHUB ANALYTICS`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB" height="175"/>
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=NeoZoneHub&theme=transparent&hide_border=true&background=070B18&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8" height="175"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NeoZoneHub&bg_color=070B18&color=00D4FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" width="95%"/>
+
+</div>
+
+---
+
+## `06 / OUR PRINCIPLES`
+
+- **Build:** Turn ideas into real projects.
+- **Experiment:** Explore technologies and new possibilities.
+- **Test:** Validate before presenting a project as finished.
+- **Improve:** Learn from every experience.
+- **Innovate:** Create useful solutions for the digital world.
+
+---
+
+## `07 / CONNECT`
+
+<div align="center">
 
 <a href="https://github.com/NeoZoneHub">
-<img src="https://img.shields.io/badge/FOLLOW%20THE%20JOURNEY-6C3BFF?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-NeoZoneHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
-</div>
+<br/><br/>
 
----
+**NEOZONE HUB**
 
-## `> github_status`
+*The digital laboratory of Digital Crew.*
 
-<div align="center">
+Created by **Dan Jersey**.
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&hide_border=true&bg_color=050816&title_color=00D4FF&icon_color=8B5CF6&text_color=CBD5E1&ring_color=6C3BFF"/>
+<br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=compact&hide_border=true&bg_color=050816&title_color=00D4FF&text_color=CBD5E1"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:070B18,45:392A86,75:087E9B,100:070B18" width="100%"/>
 
-<img src="https://streak-stats.demolab.com?user=NeoZoneHub&hide_border=true&background=050816&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8"/>
-
-</div>
-
----
-
-## `> a_note_to_visitors`
-
-Whether you're here to explore code, discover an idea, or follow what we're building, welcome.
-
-**Neozone Hub is a work in progress. The best parts are still being built.**
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,35:6C3BFF,70:00D4FF,100:050816&height=110&section=footer" width="100%"/>
-
-<sub>© Digital Crew · Neozone Hub · Created by Dan Jersey</sub>
+<sub>© Digital Crew · Neozone Hub</sub>
 
 </div>
