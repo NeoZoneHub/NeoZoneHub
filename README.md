@@ -29,7 +29,7 @@
 
 ---
 
-## `01 / À PROPOS DE NEOZONE HUB`
+## `À PROPOS DE NEOZONE HUB`
 
 **Neozone Hub** est l'espace GitHub officiel de **Digital Crew**, créé par **Dan Jersey**.
 
@@ -41,7 +41,7 @@ Notre objectif est de transformer des idées en solutions numériques utiles, en
 
 ---
 
-## `02 / NOTRE ÉCOSYSTÈME`
+## `NOTRE ÉCOSYSTÈME`
 
 <table width="100%">
 <tr>
@@ -80,7 +80,7 @@ Prototypes, expérimentations et exploration de nouvelles technologies.
 
 ---
 
-## `03 / NOS PROJETS`
+## `NOS PROJETS`
 
 Découvrez une sélection de nos réalisations. Chaque carte vous permet d'accéder directement au dépôt correspondant.
 
@@ -106,7 +106,7 @@ Découvrez une sélection de nos réalisations. Chaque carte vous permet d'accé
 
 ---
 
-## `04 / NOS TECHNOLOGIES`
+## `NOS TECHNOLOGIES`
 
 Technologies identifiées dans nos dépôts publics :
 
@@ -125,7 +125,7 @@ Technologies identifiées dans nos dépôts publics :
 
 ---
 
-## `05 / STATISTIQUES GITHUB`
+## `STATISTIQUES GITHUB`
 
 Découvrez quelques indicateurs de l'activité de notre compte GitHub.
 
@@ -145,7 +145,7 @@ Découvrez quelques indicateurs de l'activité de notre compte GitHub.
 
 ---
 
-## `06 / NOS PRINCIPES`
+## `NOS PRINCIPES`
 
 - **Créer :** transformer les idées en projets concrets.
 - **Expérimenter :** explorer les technologies et de nouvelles possibilités.
@@ -155,7 +155,7 @@ Découvrez quelques indicateurs de l'activité de notre compte GitHub.
 
 ---
 
-## `07 / NOUS RETROUVER`
+## `NOUS RETROUVER`
 
 <div align="center">
 
