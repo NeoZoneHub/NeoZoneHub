@@ -1,74 +1,74 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:070B18,35:392A86,70:087E9B,100:070B18&text=NEOZONE%20HUB&fontColor=FFFFFF&fontSize=54&fontAlignY=38&desc=THE%20DIGITAL%20LAB%20OF%20DIGITAL%20CREW&descAlignY=61&descSize=14" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:070B18,35:392A86,70:087E9B,100:070B18&text=NEOZONE%20HUB&fontColor=FFFFFF&fontSize=54&fontAlignY=38&desc=LE%20LABORATOIRE%20NUM%C3%89RIQUE%20DE%20DIGITAL%20CREW&descAlignY=61&descSize=14" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Welcome+to+Neozone+Hub;The+technical+space+of+Digital+Crew;Code.+Ideas.+Innovation.;Building+the+future+one+project+at+a+time."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Bienvenue+chez+Neozone+Hub;L'espace+technique+de+Digital+Crew;Code.+Id%C3%A9es.+Innovation.;Construire+le+futur%2C+un+projet+%C3%A0+la+fois."/>
 
 <br/>
 
 <img src="https://img.shields.io/badge/NEOZONE-HUB-6C3BFF?style=for-the-badge&logo=github"/>
 <img src="https://img.shields.io/badge/DIGITAL-CREW-00D4FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CREATED%20BY-DAN%20JERSEY-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CR%C3%89%C3%89%20PAR-DAN%20JERSEY-111827?style=for-the-badge"/>
 
 <br/><br/>
 
 <a href="https://github.com/NeoZoneHub">
-<img src="https://img.shields.io/github/followers/NeoZoneHub?label=Followers&style=for-the-badge&color=087E9B&logo=github"/>
+<img src="https://img.shields.io/github/followers/NeoZoneHub?label=Abonn%C3%A9s&style=for-the-badge&color=087E9B&logo=github"/>
 </a>
 
 <a href="https://github.com/NeoZoneHub?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECTS-6C3BFF?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/D%C3%89COUVRIR%20LES%20PROJETS-6C3BFF?style=for-the-badge&logo=github"/>
 </a>
 
 </div>
 
 ---
 
-## `01 / ABOUT NEOZONE`
+## `01 / À PROPOS DE NEOZONE HUB`
 
-**Neozone Hub** is the official GitHub space of **Digital Crew**, created by **Dan Jersey**.
+**Neozone Hub** est l'espace GitHub officiel de **Digital Crew**, créé par **Dan Jersey**.
 
-It is a digital laboratory dedicated to software development, artificial intelligence, automation and technological experimentation.
+C'est un laboratoire numérique consacré au développement logiciel, à l'intelligence artificielle, à l'automatisation et à l'expérimentation technologique.
 
-Our goal is to turn ideas into useful digital products through creativity, technical exploration and continuous improvement.
+Notre objectif est de transformer des idées en solutions numériques utiles, grâce à la créativité, à l'exploration technique et à l'amélioration continue.
 
-> **Our vision:** Build meaningful technology. Create without limits. Innovate with purpose.
+> **Notre vision :** concevoir des technologies qui ont du sens, repousser les limites de la création et innover avec ambition.
 
 ---
 
-## `02 / OUR ECOSYSTEM`
+## `02 / NOTRE ÉCOSYSTÈME`
 
 <table>
 <tr>
 <td width="50%">
 
-### ⌘ Software Development
+### ⌘ Développement logiciel
 
-Applications, scripts, web interfaces and software tools.
+Applications, scripts, interfaces web et outils informatiques.
 
 </td>
 <td width="50%">
 
-### ◈ Artificial Intelligence
+### ◈ Intelligence artificielle
 
-AI experiments, intelligent assistants and automation.
+Expérimentations en IA, assistants intelligents et solutions automatisées.
 
 </td>
 </tr>
 <tr>
 <td>
 
-### ⚡ Bots & Automation
+### ⚡ Bots et automatisation
 
-Digital bots and systems designed to simplify tasks.
+Bots numériques et systèmes conçus pour simplifier certaines tâches.
 
 </td>
 <td>
 
-### ✦ Digital Innovation
+### ✦ Innovation numérique
 
-Prototypes, experiments and emerging technologies.
+Prototypes, expérimentations et exploration de nouvelles technologies.
 
 </td>
 </tr>
@@ -76,29 +76,29 @@ Prototypes, experiments and emerging technologies.
 
 ---
 
-## `03 / PROJECTS`
+## `03 / NOS PROJETS`
 
-Our public repositories are displayed below. This section is automatically updated by GitHub Actions.
+Retrouvez ci-dessous nos dépôts publics. Cette section est actualisée automatiquement grâce à GitHub Actions.
 
 <!-- PROJECTS:START -->
-| Project | Language | Stars | Description |
+| Projet | Langage | Étoiles | Description |
 |---|---|---:|---|
-| Loading projects... | — | — | The automatic update will populate this section. |
+| Chargement des projets... | — | — | La liste sera générée automatiquement. |
 <!-- PROJECTS:END -->
 
 <div align="center">
 
 <a href="https://github.com/NeoZoneHub?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-00D4FF?style=for-the-badge&logo=github&logoColor=07111F"/>
+<img src="https://img.shields.io/badge/EXPLORER%20TOUS%20LES%20PROJETS-00D4FF?style=for-the-badge&logo=github&logoColor=07111F"/>
 </a>
 
 </div>
 
 ---
 
-## `04 / TECHNOLOGY STACK`
+## `04 / NOS TECHNOLOGIES`
 
-Technologies identified in our public repositories:
+Technologies utilisées dans nos dépôts publics et nos projets de développement :
 
 <div align="center">
 
@@ -109,21 +109,23 @@ Technologies identified in our public repositories:
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=070B18&title_color=00D4FF&text_color=E5E7EB"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoZoneHub&layout=donut-vertical&langs_count=8&hide_border=true&bg_color=070B18&title_color=00D4FF&text_color=E5E7EB&locale=fr"/>
 
 </div>
 
 ---
 
-## `05 / GITHUB ANALYTICS`
+## `05 / STATISTIQUES GITHUB`
+
+Découvrez l'activité et les statistiques de notre compte GitHub.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=NeoZoneHub&show_icons=true&include_all_commits=true&hide_border=true&bg_color=070B18&title_color=00D4FF&icon_color=8B5CF6&text_color=E5E7EB&locale=fr" height="175"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=NeoZoneHub&theme=transparent&hide_border=true&background=070B18&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8" height="175"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=NeoZoneHub&theme=transparent&hide_border=true&background=070B18&ring=6C3BFF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=CBD5E1&dates=94A3B8&locale=fr" height="175"/>
 
 <br/><br/>
 
@@ -133,17 +135,17 @@ Technologies identified in our public repositories:
 
 ---
 
-## `06 / OUR PRINCIPLES`
+## `06 / NOS PRINCIPES`
 
-- **Build:** Turn ideas into real projects.
-- **Experiment:** Explore technologies and new possibilities.
-- **Test:** Validate before presenting a project as finished.
-- **Improve:** Learn from every experience.
-- **Innovate:** Create useful solutions for the digital world.
+- **Créer :** transformer les idées en projets concrets.
+- **Expérimenter :** explorer les technologies et de nouvelles possibilités.
+- **Tester :** vérifier le fonctionnement de nos réalisations avant de les présenter comme terminées.
+- **Améliorer :** apprendre de chaque expérience et faire évoluer nos projets.
+- **Innover :** concevoir des solutions utiles pour le monde numérique.
 
 ---
 
-## `07 / CONNECT`
+## `07 / NOUS RETROUVER`
 
 <div align="center">
 
@@ -155,14 +157,14 @@ Technologies identified in our public repositories:
 
 **NEOZONE HUB**
 
-*The digital laboratory of Digital Crew.*
+*Le laboratoire numérique de Digital Crew.*
 
-Created by **Dan Jersey**.
+Créé par **Dan Jersey**.
 
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:070B18,45:392A86,75:087E9B,100:070B18" width="100%"/>
 
-<sub>© Digital Crew · Neozone Hub</sub>
+<sub>© Digital Crew · Neozone Hub · Tous droits réservés.</sub>
 
 </div>
