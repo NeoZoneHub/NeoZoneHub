@@ -81,9 +81,18 @@ Prototypes, expérimentations et exploration de nouvelles technologies.
 Retrouvez ci-dessous nos dépôts publics. Cette section est actualisée automatiquement grâce à GitHub Actions.
 
 <!-- PROJECTS:START -->
-| Projet | Langage | Étoiles | Description |
+| Project | Language | Stars | Description |
 |---|---|---:|---|
-| Chargement des projets... | — | — | La liste sera générée automatiquement. |
+| [Digital-hack-cam](https://github.com/NeoZoneHub/Digital-hack-cam) | Python | 13 | No description provided. |
+| [Digital-Post-AI-v1](https://github.com/NeoZoneHub/Digital-Post-AI-v1) | JavaScript | 3 | No description provided. |
+| [DigiX-bot](https://github.com/NeoZoneHub/DigiX-bot) | JavaScript | 7 | No description provided. |
+| [Newsletter-bot](https://github.com/NeoZoneHub/Newsletter-bot) | JavaScript | 1 | No description provided. |
+| [ShadowCrew-Mini-bot](https://github.com/NeoZoneHub/ShadowCrew-Mini-bot) | JavaScript | 0 | No description provided. |
+| [Digital-telegram-bot](https://github.com/NeoZoneHub/Digital-telegram-bot) | JavaScript | 2 | No description provided. |
+| [Alpha-opt-bot](https://github.com/NeoZoneHub/Alpha-opt-bot) | JavaScript | 5 | No description provided. |
+| [WA-Hub-X](https://github.com/NeoZoneHub/WA-Hub-X) | Python | 4 | No description provided. |
+| [ShadowCrew-session-id](https://github.com/NeoZoneHub/ShadowCrew-session-id) | HTML | 5 | No description provided. |
+| [ReconHub](https://github.com/NeoZoneHub/ReconHub) | Python | 5 | No description provided. |
 <!-- PROJECTS:END -->
 
 <div align="center">
