@@ -83,7 +83,168 @@ Découvrez une sélection de nos réalisations. Chaque carte permet d'accéder d
 <div align="center">
 
 <!-- PROJECTS:START -->
-<p><i>Les projets seront chargés automatiquement.</i></p>
+<table width="100%">
+<tr>
+
+    <td width="50%" valign="top">
+      <h3>◈ Digital-hack-cam</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
+             alt="Langage : Python"/>
+        <img src="https://img.shields.io/badge/Étoiles-13-392A86?style=flat-square"
+             alt="13 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/Digital-hack-cam">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+
+    <td width="50%" valign="top">
+      <h3>◈ Digital-Post-AI-v1</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-3-392A86?style=flat-square"
+             alt="3 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/Digital-Post-AI-v1">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+</tr>
+<tr>
+
+    <td width="50%" valign="top">
+      <h3>◈ DigiX-bot</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-7-392A86?style=flat-square"
+             alt="7 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/DigiX-bot">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+
+    <td width="50%" valign="top">
+      <h3>◈ Newsletter-bot</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-1-392A86?style=flat-square"
+             alt="1 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/Newsletter-bot">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+</tr>
+<tr>
+
+    <td width="50%" valign="top">
+      <h3>◈ ShadowCrew-Mini-bot</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-0-392A86?style=flat-square"
+             alt="0 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/ShadowCrew-Mini-bot">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+
+    <td width="50%" valign="top">
+      <h3>◈ Digital-telegram-bot</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-2-392A86?style=flat-square"
+             alt="2 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/Digital-telegram-bot">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+</tr>
+<tr>
+
+    <td width="50%" valign="top">
+      <h3>◈ Alpha-opt-bot</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-087E9B?style=flat-square"
+             alt="Langage : JavaScript"/>
+        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
+             alt="5 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/Alpha-opt-bot">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+
+    <td width="50%" valign="top">
+      <h3>◈ WA-Hub-X</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
+             alt="Langage : Python"/>
+        <img src="https://img.shields.io/badge/Étoiles-4-392A86?style=flat-square"
+             alt="4 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/WA-Hub-X">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+</tr>
+<tr>
+
+    <td width="50%" valign="top">
+      <h3>◈ ShadowCrew-session-id</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HTML-087E9B?style=flat-square"
+             alt="Langage : HTML"/>
+        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
+             alt="5 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/ShadowCrew-session-id">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+
+    <td width="50%" valign="top">
+      <h3>◈ ReconHub</h3>
+      <p>Aucune description disponible.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-087E9B?style=flat-square"
+             alt="Langage : Python"/>
+        <img src="https://img.shields.io/badge/Étoiles-5-392A86?style=flat-square"
+             alt="5 étoiles"/>
+      </p>
+      <a href="https://github.com/NeoZoneHub/ReconHub">
+        <img src="https://img.shields.io/badge/VOIR_LE_PROJET-6C3BFF?style=for-the-badge" alt="Voir le projet"/>
+      </a>
+    </td>
+    
+</tr>
+</table>
 <!-- PROJECTS:END -->
 
 <br/>
